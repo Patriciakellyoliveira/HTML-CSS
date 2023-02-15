@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(15, 15, 15);
+    position: relative;
+    right: 200px;
+}
+
+h1 {
+    position: absolute;
+    color: beige;
+    left: 550px;
+}
+
+p#a {
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+}
+
+iframe#video1:hover {
+    display: block;
+    src: url(../segundo-site/index2.html);
+}
+
+iframe#video1 {
+   float: left; 
+   margin-top: 60px;
+   margin-left: 500px;
+
+}
+
+iframe#video2 {
+   float: right; 
+   margin-top: 60px;
+       
+}
+
+iframe#video3 {
+    float: right;
+    margin-top: 10px;
+    
+}
+
+iframe#video4 {
+    float: left;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+

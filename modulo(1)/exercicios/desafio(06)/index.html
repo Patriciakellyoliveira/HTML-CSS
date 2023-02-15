@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Imagem flexicivel</title>
+</head>
+<body>
+    <h1>Imagem Flexícivel</h1>
+    <p>Você esta vendo uma imagem completa? Experimenta ampliar o tamanho da sua janela para aproveitar a melhor experiencia. 
+        &#x1FE0F; </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pexels-joan-costa-p.png" type="image/png">
+        <source media="(max-width: 1280px)" srcset="imagens/pexels-joan-costa-m.png" type="image/png">
+        <img src="imagens/pexels-joan-costa-g.png" alt="Imagem flexicivel">
+    </picture>    
+</body>
+</html>
