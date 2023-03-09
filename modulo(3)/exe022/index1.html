@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fundo</title>
+    <style>
+        body {
+            background-color: white;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 34px;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+        }
+
+        div.quadrado {
+            display: block;
+            width: 90%;
+            height: 400px;
+            background-color: lightgray;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Repetições em background-image</h1>
+    <h2>background-repeat: repeat;</h2>
+    <p>Repete a imagem tanto no sentido vertical, quanto horizontal (padrão).</p>
+    <div class="quadrado" id="qd1"></div>
+    <h2>background-repeat: repeat-x;</h2>
+    <p>Repete apenas no eixo horizontal.</p>
+    <div class="quadrado" id="qd2"></div>
+    <h2>background-repeat: repeat-y;</h2>
+    <p>Repete apenas no eixo vertical.</p>
+    <div class="quadrado" id="qd3"></div>
+    <h2>background-repeat: no-repeat;</h2>
+    <p>Não repete em nenhum eixo. A imagem só é carregada uma única vez</p>
+    <div class="quadrado" id="qd4"></div>
+</body>
+
+</html>
