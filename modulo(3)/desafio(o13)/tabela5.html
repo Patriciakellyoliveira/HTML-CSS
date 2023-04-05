@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .cnome {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profisão</th>
+        </tr>
+        <tr>
+            <td>Ane Carolina</td>
+            <td>Feminino</td>
+            <td>34</td>
+            <td>Manicure</td>
+        </tr>
+        <tr>
+            <td>Jaqueline Oliveira</td>
+            <td>Feminino</td>
+            <td>45</td>
+            <td>Recursos Humanos</td>
+        </tr>
+        <tr>
+            <td>Camila Oliveira</td>
+            <td>Feminino</td>
+            <td>28</td>
+            <td>Artesanato</td>
+        </tr>
+        <tr>
+            <td>Katia Oliveira</td>
+            <td>Feminino</td>
+            <td>41</td>
+            <td>Enfermeira</td>
+        </tr>
+    </table>
+</body>
+</html>
